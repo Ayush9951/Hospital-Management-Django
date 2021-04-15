@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="{% static 'css/hospital/hospital.css' %}">
+    <link rel="stylesheet" href="{% static 'css/hospital-logo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/hospital/hospital-navbar.css' %}">
+  </head>
+  <body>
+    <h1 class="hospital-heading">Hospital</h1>
+    <!-- Hospital logo -->
+    <img class="hospital-logo" src="{% static 'images/hospital.png' %}" alt="Hospital Logo">
+    {% include 'hospital/hospital-navbar.html' %}
+
+  </body>
+</html>

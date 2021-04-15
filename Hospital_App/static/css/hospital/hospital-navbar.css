@@ -1,0 +1,38 @@
+.hospital-navigation-bar{
+    height:100px;
+    width:450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-100px;
+    left:24px;
+}
+
+a{
+    display: inline-block;
+    height:75px;
+    width: 150px;
+    background-color: #5f939a;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color:#9dbeb9;
+}
+.patients-section{
+    position: relative;
+    left: 8.5px;
+    top:8px;
+
+}
+.donate-blood-section{
+    position: relative;
+    left: 22px;
+    top:8px;
+ }
+ .doctor-section{
+    position: relative;
+    left: 40px;
+    top:8px;
+ }
