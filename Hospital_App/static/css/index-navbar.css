@@ -1,0 +1,45 @@
+.navigation-bar{
+    height:200px;
+    width:800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:275px;
+    margin-top: 100px;
+}
+
+a{
+    display: inline-block;
+    height:200px;
+    width: 200px;
+    background-color: #5f939a;
+    margin: 5px;
+    text-decoration: none;
+    border:5px solid black;
+    color: white;  
+}
+
+a:hover{
+    background-color:#9dbeb9;
+}
+
+.user-section{
+   position: relative;
+   left:65px;
+   top:65px;
+   font-size: 28px;
+}
+
+.hospital-section{
+    position: relative;
+    left:50px;
+    top:65px;
+    font-size: 28px;
+ }
+
+ .Admin-section{
+    position: relative;
+    left:55px;
+    top:65px;
+    font-size: 28px;
+ }
