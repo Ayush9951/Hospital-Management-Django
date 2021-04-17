@@ -7,12 +7,10 @@
         <link rel="stylesheet" href="{% static 'css/index-navbar.css' %}">
     </head>
     <body>
-        <!-- Hospital management heading -->
-        <h1 class="hospital-management-heading">Hospital Management System</h1>
-
-        <!-- Hospital logo -->
-        <img class="hospital-logo" src="{% static 'images/hospital.png' %}" alt="Hospital Logo">
-
+        <div class="index-heading-logo-div">
+            <h1 class="hospital-management-heading">Hospital Management System</h1>
+            <img class="hospital-logo" src="{% static 'images/hospital.png' %}" alt="Hospital Logo">
+        </div>
         <!-- users, hospital and admin navigation bar -->
         {% include 'index-navbar.html' %}
     </body>

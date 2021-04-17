@@ -1,0 +1,9 @@
+{% extends 'hospital/hospital.html' %}
+{% block content %}
+
+<div class="patients">
+    <div class="patient-form-div">{% include 'hospital/patients/patient-form.html' %}</div>
+    <div class="patient-details-div">{% include 'hospital/patients/patient-details.html' %}</div>
+</div>
+
+{% endblock content %}

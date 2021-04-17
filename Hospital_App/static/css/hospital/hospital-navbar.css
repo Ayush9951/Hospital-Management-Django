@@ -1,14 +1,7 @@
-.hospital-navigation-bar{
-    height:100px;
-    width:450px;
+.hospital-navbar{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top:-100px;
-    left:24px;
+    margin:18px;
 }
-
 a{
     display: inline-block;
     height:75px;
@@ -20,19 +13,18 @@ a{
 a:hover{
     background-color:#9dbeb9;
 }
-.patients-section{
+.register-patient-div{
     position: relative;
-    left: 8.5px;
-    top:8px;
-
+    top:5px;
+    left:12px;
 }
-.donate-blood-section{
+.donate-blood-div{
     position: relative;
-    left: 22px;
-    top:8px;
- }
- .doctor-section{
+    top:5px;
+    left:23px;
+}
+.doctors-div{
     position: relative;
-    left: 40px;
-    top:8px;
- }
+    top:5px;
+    left:45px;
+}

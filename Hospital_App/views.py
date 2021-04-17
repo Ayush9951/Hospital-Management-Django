@@ -5,3 +5,6 @@ def home(request):
 
 def hospital(request):
     return render(request, 'hospital/hospital.html')
+
+def patients(request):
+    return render(request, 'hospital/patients/patients.html')

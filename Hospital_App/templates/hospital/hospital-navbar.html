@@ -1,11 +1,5 @@
-<nav class="hospital-navigation-bar">
-  <a href="">
-    <h4 class="patients-section">Register Patients</h4>
-  </a>
-  <a href="">
-    <h4 class="donate-blood-section">Donate Blood</h4>
-  </a>
-  <a href="">
-    <h4 class="doctor-section">Doctors</h4>
-  </a>
+<nav class="hospital-navbar">
+  <div><a href="{% url 'patients-url' %}"><h4 class="register-patient-div">Register Patients</h4></a></div>
+  <div><a href=""><h4 class="donate-blood-div">Donate Blood</h4></a></div>
+  <div><a href=""><h4 class="doctors-div">Doctors</h4></a></div>
 </nav>

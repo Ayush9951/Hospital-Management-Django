@@ -1,0 +1,17 @@
+.patient-details-table{
+    border-collapse: collapse;
+}
+.patient-details-table th {
+   
+    height:50px;
+    width: 100px;
+    background-color: #5f939a;
+    color:white;
+}
+.patient-details-table td {
+    height:50px;
+    width: 100px;
+    text-align: center;
+    background-color:#e6e6e6;
+    color: #132c33;
+}

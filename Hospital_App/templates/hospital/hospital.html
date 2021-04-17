@@ -7,12 +7,22 @@
     <link rel="stylesheet" href="{% static 'css/hospital/hospital.css' %}">
     <link rel="stylesheet" href="{% static 'css/hospital-logo.css' %}">
     <link rel="stylesheet" href="{% static 'css/hospital/hospital-navbar.css' %}">
+    <link rel="stylesheet" href="{% static 'css/hospital/patients/patients.css' %}">
+    <link rel="stylesheet" href="{% static 'css/hospital/patients/patient-form.css' %}">
+    <link rel="stylesheet" href="{% static 'css/hospital/patients/patient-details.css' %}">
   </head>
-  <body>
-    <h1 class="hospital-heading">Hospital</h1>
-    <!-- Hospital logo -->
+  <body style="background-color: #355968;">
+    <div class="hospital-div">
+      <div class="hospital-navbar-div">{% include 'hospital/hospital-navbar.html' %} </div>
+      <div class="hospital-heading-div"><h1>Hospital</h1></div>
+     
+    </div>
     <img class="hospital-logo" src="{% static 'images/hospital.png' %}" alt="Hospital Logo">
-    {% include 'hospital/hospital-navbar.html' %}
+    <!-- <img src="{% static 'images/patient.png' %}" alt="man Logo" height="300px" width="300px"> -->
+  
+    {% block content %}
+
+    {% endblock content %}
 
   </body>
 </html>

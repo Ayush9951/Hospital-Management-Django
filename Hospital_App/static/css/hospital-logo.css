@@ -1,8 +1,7 @@
 .hospital-logo{
     height:100px;
-    width: 100px;
-    float: right;
+    width:100px;
     position: relative;
-    top:-100px;
-    right:150px;
-}
+    top:-85px;
+    left:1200px;
+  }

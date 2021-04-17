@@ -1,5 +1,5 @@
-.navigation-bar{
-    height:200px;
+.index-navigation-bar{
+    height:250px;
     width:800px;
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
     margin-top: 100px;
 }
 
-a{
+.index-navigation-bar a{
     display: inline-block;
     height:200px;
     width: 200px;
@@ -19,7 +19,7 @@ a{
     color: white;  
 }
 
-a:hover{
+.index-navigation-bar a:hover{
     background-color:#9dbeb9;
 }
 

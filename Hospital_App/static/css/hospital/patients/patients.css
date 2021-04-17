@@ -1,0 +1,13 @@
+.patients{
+    display: flex;
+    height:400px;
+    margin-top: -125px;
+}
+.patient-form-div{
+    margin-top:50px;
+}
+.patient-details-div{
+    position: relative;
+    left:125px;
+    top:50px;
+}

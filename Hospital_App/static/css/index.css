@@ -1,10 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #355968;
+}
+.index-heading-logo-div{
+    height:100px;
+    
 }
 .hospital-management-heading{
-    color:#1b1a17;
+    color:rgb(228, 222, 222);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 44px;
-    margin-top: 35px;
+    position: relative;
+    top:50px;
 }
