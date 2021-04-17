@@ -4,7 +4,7 @@
 .patient-details-table th {
    
     height:50px;
-    width: 100px;
+    width: 115px;
     background-color: #5f939a;
     color:white;
 }
@@ -14,4 +14,18 @@
     text-align: center;
     background-color:#e6e6e6;
     color: #132c33;
+}
+.delete-patient-button{
+    height:35px;
+    width: 75px;
+    background-color: rgba(243, 17, 17, 0.596);
+    color:white;
+    border: none;
+}
+.update-button{
+    height:35px;
+    width: 75px;
+    background-color: #3c7da8;
+    color:white;
+    border: none;
 }

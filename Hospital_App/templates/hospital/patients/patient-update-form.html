@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+    <head>
+        <title>Update</title>
+        <link rel="stylesheet" href="{% static 'css/hospital/patients/patient-update-form.css' %}">
+        <link rel="stylesheet" href="{% static 'css/hospital-logo.css' %}">
+    </head>
+    <body>
+        <h1>Update Details</h1>
+        <img class="hospital-logo" src="{% static 'images/hospital.png' %}" alt="Hospital Logo">
+        <form method="GET" class="patient-update-form">
+            {% csrf_token %}
+            <table class="patient-update-form-table">
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input id="name" type="text" name="update-patient-name" value="{{ patient_update_details.name }}"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input id="age" type="text" name="update-patient-age" value="{{ patient_update_details.age }}"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input id="city" type="text" name="update-patient-city" value="{{ patient_update_details.city }}"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone</label></td>
+                    <td><input id="phone" type="text" name="update-patient-phone" value="{{ patient_update_details.phone }}"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Date</label></td>
+                    <td><input id="phone" type="text" name="update-date" value="{{ patient_update_details.date }}"></td>
+                </tr>
+                
+            </table> 
+            <input id="update-patient-button" type="submit" value="Update">
+        </form>
+    </body>
+</html>

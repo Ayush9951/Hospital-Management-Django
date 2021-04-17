@@ -6,6 +6,29 @@
         <th>Phone</th>
         <th>Date</th>
         <th>Delete</th>
-        <th>Edit</th>
+        <th>Update</th>
     </tr>
+    {% for patient in patient_details %}
+
+    <tr>
+        <td>{{ patient.name }}</td>
+        <td>{{ patient.age }}</td>
+        <td>{{ patient.city }}</td>
+        <td>{{ patient.phone }}</td>
+        <td>{{ patient.date }}</td>
+        <td>
+            <form method="POST" action="{% url 'delete-patient-url' patient.id %}">
+                {% csrf_token %}
+                <input class="delete-patient-button" type="submit" value="Delete" >
+            </form>
+        </td>
+        <td>
+            <form method="POST" action="{% url 'update-patient-url' patient.id %}">
+                {% csrf_token %}
+                <input class="update-button" type="submit" value="Update" >
+            </form>
+        </td>
+    </tr>
+
+    {% endfor %}
 </table>
